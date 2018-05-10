@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: "Helvetica", sans-serif;
+  opacity: 0.9;
+  margin: 0;
+
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+.header .logo {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.header a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: underline;
+  color: seashell;
+}
+.logo img {
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.mission {
+  height: 700px;
+  background-image: url("../images/background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission_text {
+  background-color: black;
+  width: 100%;
+}
+
+.selection_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  width: 1000px;
+}
+.tea img {
+  height: 200px;
+  margin-left: 10px;
+}
+
+.address_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.address span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.locations {
+  background-image: url("../images/locations.jpg");
+  height: 500px;
+}
